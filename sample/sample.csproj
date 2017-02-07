@@ -73,6 +73,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Models\EmptyClass.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\FormController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />
