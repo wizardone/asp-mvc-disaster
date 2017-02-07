@@ -1,0 +1,12 @@
+/Users/Wizard/projects/asp/sample/sample/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/Wizard/projects/asp/sample/sample/bin/sample.dll.mdb
+/Users/Wizard/projects/asp/sample/sample/bin/sample.dll
+/Users/Wizard/projects/asp/sample/sample/obj/Debug/sample.dll
+/Users/Wizard/projects/asp/sample/sample/obj/Debug/sample.dll.mdb
+/Users/Wizard/projects/asp/sample/sample/bin/System.Web.Razor.dll
+/Users/Wizard/projects/asp/sample/sample/bin/Microsoft.Web.Infrastructure.dll
+/Users/Wizard/projects/asp/sample/sample/bin/System.Web.Helpers.dll
+/Users/Wizard/projects/asp/sample/sample/bin/System.Web.WebPages.Deployment.dll
+/Users/Wizard/projects/asp/sample/sample/bin/System.Web.WebPages.dll
+/Users/Wizard/projects/asp/sample/sample/bin/System.Web.WebPages.Razor.dll
+/Users/Wizard/projects/asp/sample/sample/bin/System.Web.Mvc.dll
