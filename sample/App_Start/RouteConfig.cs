@@ -15,9 +15,9 @@ namespace sample
 				defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
 			);
 			routes.MapRoute(
-				name: "Login",
+				name: "Form",
 				url: "{controller}/{action}",
-				defaults: new { controller = "Login", action = "Login" }
+				defaults: new { controller = "Home", action = "Form" }
 			);
 // some comment here
 		}

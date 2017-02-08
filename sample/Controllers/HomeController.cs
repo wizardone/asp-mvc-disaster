@@ -22,9 +22,9 @@ namespace sample.Controllers
 			return View();
 		}
 
-		public ActionResult List()
+		public ActionResult Form()
 		{
-			var haha = "haha";
+
 			return View();
 		}
 	}

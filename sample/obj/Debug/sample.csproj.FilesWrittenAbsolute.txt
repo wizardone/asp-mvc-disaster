@@ -10,3 +10,7 @@
 /Users/Wizard/projects/asp/sample/sample/bin/System.Web.WebPages.dll
 /Users/Wizard/projects/asp/sample/sample/bin/System.Web.WebPages.Razor.dll
 /Users/Wizard/projects/asp/sample/sample/bin/System.Web.Mvc.dll
+/Users/Wizard/projects/asp/sample/sample/bin/Antlr3.Runtime.dll
+/Users/Wizard/projects/asp/sample/sample/bin/Newtonsoft.Json.dll
+/Users/Wizard/projects/asp/sample/sample/bin/WebGrease.dll
+/Users/Wizard/projects/asp/sample/sample/bin/System.Web.Optimization.dll
