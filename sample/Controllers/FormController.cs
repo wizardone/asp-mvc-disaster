@@ -8,9 +8,10 @@ namespace sample.Controllers
 {
     public class FormController : Controller
     {
-        public ActionResult Index()
-        {
-            return View ();
-        }
+		public ContentResult Index()
+		{
+			//return "This is the form controller, index action";
+			return Content();
+		}
     }
 }

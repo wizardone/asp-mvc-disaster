@@ -22,10 +22,10 @@ namespace sample.Controllers
 			return View();
 		}
 
-		public ActionResult Form()
+		public EmptyResult Empty()
 		{
-
-			return View();
+			return null;
 		}
+
 	}
 }

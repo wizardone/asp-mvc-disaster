@@ -84,7 +84,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Models\EmptyClass.cs" />
+    <Compile Include="Models\Article.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\FormController.cs" />
   </ItemGroup>
