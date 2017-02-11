@@ -9,6 +9,7 @@ namespace sample.Controllers
 {
 	public class HomeController : Controller
 	{
+		[HttpGet]
 		public ActionResult Index()
 		{
 			var mvcName = typeof(Controller).Assembly.GetName();
@@ -22,6 +23,7 @@ namespace sample.Controllers
 			return View();
 		}
 
+		[HttpGet]
 		public EmptyResult Empty()
 		{
 			return null;

@@ -20,9 +20,9 @@ namespace sample
 				defaults: new { controller = "Home", action = "Empty"}
 			);
 			routes.MapRoute(
-				name: "Form",
+				name: "Articles",
 				url: "{controller}/{action}",
-				defaults: new { controller = "Form", action = "Index" }
+				defaults: new { controller = "Article", action = "Index" }
 			);
 			routes.MapRoute(
 				name: "Article",
