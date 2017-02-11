@@ -20,10 +20,10 @@ namespace sample.Controllers
 			return View();
 		}
 
-		/*[HttpPost]
-		public ActionResult Create()
-		{ 
-		
-		}*/
+		[HttpGet]
+		public ActionResult New()
+		{
+			return View();
+		}
     }
 }

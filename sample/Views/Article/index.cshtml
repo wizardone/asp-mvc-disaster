@@ -1,5 +1,17 @@
-﻿@{
+﻿@model IEnumerable<sample.Article>
+@{
 	ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<h2>Article index pageeeeeeeeeee</h2>
+<h2>Article index page</h2>
+@Html.ActionLink("Create Article", "New", "Article")
+<table>
+	<tr>
+		<th>
+			@Html.DisplayNameFor(model => model.Title)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.Data)
+		</th>
+	</tr>
+</table>

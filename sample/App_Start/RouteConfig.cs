@@ -25,6 +25,11 @@ namespace sample
 				defaults: new { controller = "Article", action = "Index" }
 			);
 			routes.MapRoute(
+				name: "ArticleNew",
+				url: "{controller}/{action}",
+				defaults: new { controller = "Article", action = "New"}
+			);
+			routes.MapRoute(
 				name: "Article",
 				url: "{controller}/{action}/{id}",
 				defaults: new { controller = "Article", action = "Show" },

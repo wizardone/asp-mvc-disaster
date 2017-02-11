@@ -1,10 +1,12 @@
 ﻿<Properties StartupConfiguration="{C520D440-AABC-4A65-80BE-79331F356B01}|" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="sample/Views/Article/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="sample/Views/Article/New.cshtml">
     <Files>
-      <File FileName="sample/App_Start/RouteConfig.cs" Line="28" Column="19" />
+      <File FileName="sample/App_Start/RouteConfig.cs" Line="30" Column="58" />
       <File FileName="sample/Models/Article.cs" Line="11" Column="34" />
-      <File FileName="sample/Controllers/ArticleController.cs" Line="14" Column="28" />
-      <File FileName="sample/Views/Article/Index.cshtml" Line="5" Column="33" />
+      <File FileName="sample/Controllers/ArticleController.cs" Line="26" Column="18" />
+      <File FileName="sample/Views/Article/Index.cshtml" Line="7" Column="40" />
+      <File FileName="sample/Views/Home/Index.cshtml" Line="5" Column="47" />
+      <File FileName="sample/Views/Article/New.cshtml" Line="2" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
