@@ -25,5 +25,11 @@ namespace sample.Controllers
 		{
 			return View();
 		}
+
+		[HttpPost]
+		public RedirectResult Create(Article article)
+		{
+			return Redirect("Index");
+		}
     }
 }

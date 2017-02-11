@@ -2,9 +2,11 @@
 @{
 	ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    var test = "Test Razor String";
 }
 <h2>Article index page</h2>
 @Html.ActionLink("Create Article", "New", "Article")
+<p>@test</p>
 <table>
 	<tr>
 		<th>

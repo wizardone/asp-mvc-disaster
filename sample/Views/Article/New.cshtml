@@ -1,4 +1,19 @@
-﻿@{
+﻿@model sample.Article
+@{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<p>New Action</p>
+
+<h2>New Article</h2>
+
+@using(Html.BeginForm("Create", "Article"))
+{
+	@Html.ValidationMessageFor(m => m.Title)
+	@Html.LabelFor(m => m.Title)
+	@Html.TextBoxFor(m => m.Title)
+
+	@Html.ValidationMessageFor(m => m.Data)
+	@Html.LabelFor(m => m.Data)
+	@Html.TextBoxFor(m => m.Data)
+
+	<input type="submit" value="Submit"/>
+}
