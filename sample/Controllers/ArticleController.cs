@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Diagnostics;
 
 namespace sample.Controllers
 {
@@ -29,6 +30,8 @@ namespace sample.Controllers
 		[HttpPost]
 		public RedirectResult Create(Article article)
 		{
+			Trace.TraceError(article.Title);
+			     
 			return Redirect("Index");
 		}
     }

@@ -14,3 +14,5 @@
 /Users/Wizard/projects/asp/sample/sample/bin/Newtonsoft.Json.dll
 /Users/Wizard/projects/asp/sample/sample/bin/WebGrease.dll
 /Users/Wizard/projects/asp/sample/sample/bin/System.Web.Optimization.dll
+/Users/Wizard/projects/asp/sample/sample/bin/EntityFramework.dll
+/Users/Wizard/projects/asp/sample/sample/bin/EntityFramework.SqlServer.dll
