@@ -16,3 +16,6 @@
 /Users/Wizard/projects/asp/sample/sample/bin/System.Web.Optimization.dll
 /Users/Wizard/projects/asp/sample/sample/bin/EntityFramework.dll
 /Users/Wizard/projects/asp/sample/sample/bin/EntityFramework.SqlServer.dll
+/Users/Wizard/projects/asp/sample/sample/bin/System.Data.SQLite.dll
+/Users/Wizard/projects/asp/sample/sample/bin/System.Data.SQLite.EF6.dll
+/Users/Wizard/projects/asp/sample/sample/bin/System.Data.SQLite.Linq.dll

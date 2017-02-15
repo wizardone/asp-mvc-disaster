@@ -15,8 +15,9 @@ namespace sample
 	public class ArticleContex : DbContext
 	{
 		public ArticleContex() : base("Article")
-		{ 
-		
+		{
 		}
+		public virtual DbSet<Article> Articles { get; set; }
+
 	}
 }
