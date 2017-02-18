@@ -3,6 +3,7 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.WebPages;
 
+
 namespace sample
 {
 	public class Global : HttpApplication
@@ -12,5 +13,6 @@ namespace sample
 			AreaRegistration.RegisterAllAreas();
 			RouteConfig.RegisterRoutes(RouteTable.Routes);
 		}
+
 	}
 }

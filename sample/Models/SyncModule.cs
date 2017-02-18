@@ -14,7 +14,7 @@ namespace sample
 		public void OnAuthenticateRequest(Object s, EventArgs e)
 		{
 			HttpApplication app = s as HttpApplication;
-			app.Context.Response.Write("Hello from OnAuthenticateRequest in custom module.<br>");
+			app.Context.Response.Write("Hello from OnAuthenticateRequest in custom SyncModule.<br>");
 		}
 
 		public delegate void MyEventHandler(Object s, EventArgs e);

@@ -10,6 +10,7 @@ namespace sample.Controllers
     public class ArticleController : Controller
     {
 		[HttpGet]
+		[OutputCache(Duration=120)]
         public ActionResult Index()
         {
             return View ();
@@ -21,18 +22,41 @@ namespace sample.Controllers
 			return View();
 		}
 
+		//[HandleError(ExceptionType=typeof(System.Exception), View="MainException")]
 		[HttpGet]
 		public ActionResult New()
 		{
+			throw new System.Exception();
 			return View();
 		}
 
 		[HttpPost]
-		public RedirectResult Create(Article article)
+		public ActionResult Create(Article article)
 		{
 			Trace.TraceError(article.Title);
-			     
-			return Redirect("Index");
+			using (var db = new ArticleContex())
+			{
+				if (ModelState.IsValid)
+				{
+					db.Articles.Add(article);
+					db.SaveChanges();
+					return Redirect("Index");
+				}
+			}
+
+			return View(article);
+		}
+
+		protected override void OnException(ExceptionContext context)
+		{
+			EventLog.WriteEntry("Exception handled", "Exception");
+
+			if (context.ExceptionHandled)
+			{
+				return;
+			}
+
+			this.View("Error").ExecuteResult(this.ControllerContext);
 		}
     }
 }
